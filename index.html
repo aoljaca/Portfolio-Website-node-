@@ -3,17 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Document</title>
 </head>
 <body>
+    <!--Loading-->
     <div>
         <div>
             <div></div>
         </div>
     </div>
+    <!--/-->
+    <!--Start header-->
     <header>
         <h1>Andrej Oljaca</h1>
     </header>
+    <!--End Header-->
+    <!--Start nav-->
     <section>
         <nav>
             <ul>
@@ -35,6 +41,8 @@
             </ul>
         </nav>
     </section>
+    <!--End nav-->
+    <!--Start side nav (if screen less wide)-->
     <div class="site-sidenav">
         <div class="sidenav-menu">
             <button></button>
@@ -68,12 +76,42 @@
         </div>
         <span class="sidenav-close"></span>
     </div>
+    <!--End side nav-->
+    <!--Start wrapper-->
     <div id='site-wrapper'>
+        <!--Start hero-->
         <section>
             <div class="display-full-screen">
-                <div class="hero-content"></div>
+                <div class="hero-content">
+                    <div class="hero-item overlay-image" style="background-image: url('https://www.davidelee.net/assets/images/background/header-background.jpg')"></div>
+                </div>
+            </div>
+            <div class="center">
+                <div class="display-center">
+                    <h1>Andrej Oljaca</h1>
+                    <p>FullStack Developer</p>
+                    <a href="#about">About me</a>
+                </div>
+                <div class="site-sidebar-links">
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/andrej-oljaca-21a59113b/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/aoljaca" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--End hero-->
+        <!--Start about-->
+        <section>
+            <div class="full-screen">
+                <div class="display-center"></div>
             </div>
         </section>
     </div>
+    <!--End wrapper-->
 </body>
 </html>
